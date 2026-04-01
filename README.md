@@ -43,9 +43,6 @@ LINKEDIN_CLIENT_SECRET=WfA1...
 LINKEDIN_REDIRECT_URI=http://localhost:8080/callback
 ```
 
-> ⚠️ Never commit `.env` or `.linkedin_token` to version control.
-> Both files are already listed in `.gitignore`.
-
 ---
 
 ## Step 3 — Build
@@ -141,4 +138,5 @@ linkedin-poster/
 | `Post failed (403)` | Ensure "Share on LinkedIn" product is added to your app |
 | `Image upload failed` | Supported formats: JPEG, PNG, GIF, WEBP |
 | Browser doesn't open | Copy the URL from terminal and paste it manually |
+# linkedin-poster
 # linkedin-poster
